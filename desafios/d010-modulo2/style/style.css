@@ -63,8 +63,8 @@ main {
     padding: 20px;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 1px 1px 5px 2px #015532;
-    min-width: 320px;
-    max-width: 800px;
+    min-width: 30px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -113,7 +113,7 @@ p {
 }
 
 .imgs {
-    width: 50%;
+    width: 100%;
 }
 
 .img {
@@ -147,7 +147,7 @@ aside {
 }
 
 aside>ul {
-    list-style-type: '\1F5F8\00A0\00A0';
+    list-style-type: '\1F5F8\00A0' circle;
     list-style-position: inside;
     columns: 2;
     padding: 0 0 0 6px;
