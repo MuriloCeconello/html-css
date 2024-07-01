@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+        h1 {
+            /*  BOX-LEVEL  */
+            text-align: center;
+            font-family: "Playwrite MX", cursive;
+            color: #B8BF80;
+            font-style: bolder;
+            background-color: #ffffff;
+            height: 300px;
+            width: 300px;
+            ;
+
+            /* O Shorthand do BORDER segue a ordem: BORDER-WIDTH -> BORDER-STYLE -> BORDER-COLOR.  */
+            border: 5px solid #82865dc4;
+
+
+            /*  O Shorthand do PADDING tem que ser escrito na ordem de um relogio OU caso todos elemtos tenham o mesmo valor pode simplificar usando somento um valor  */
+            padding: 10px;
+
+
+            /*  MARGIN: AUTO  para centralizar*/
+
+            /*  O Shorthand do MARGIN segue a mesma logica do PADDING.  */
+            margin: 20px auto 40px auto;
+
+
+            /*  O Shorthand do OUTLINE funciona como: OUTLINE-WIDTH -> OUTLINE-STYLE -> OUTLINE-COLOR  */
+            outline: 5px dashed #fa8072;
+        }
+
+        a {
+            /*  INLINE-LEVEL  */
+
+            border: 2px dashed #ff0000;
+
+            padding: 10px;
+        }
+
+        p {
+            /*  INLINE-LEVEL  */
+            font-family: "DM Serif Display", serif;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>.
+        Vamos ver como tudo isso funciona.</p>
+</body>
+
+</html>

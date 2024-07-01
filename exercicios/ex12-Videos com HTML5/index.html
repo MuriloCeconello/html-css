@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+
+<body>
+    <h1>inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedade no meu proprio servidor</p>
+
+    <video src="midia/videocavalos.mp4" width="750px" controls></video>
+
+    <!--  JEITO MELHOR PARA TODOS OS NAVEGADORES  -->
+    <p>---------------------------------------------------------------------------------------------------------------------------------------------
+    </p>
+    <video width="560px" controls>
+        <source src="midia/videocavalos.mp4" type="video/mp4">
+        <source src="midia/videocavalos.m4v" type="video/mp4">
+        <source src="midia/videocavalos.webm" type="video/webm">
+        <source src="midia/videocavalos.ogv" type="video/ogg">
+        <p>Seu navegador nao tem compatibilidade com reproduçao de videos</p>
+    </video>
+
+    <h1>Iserindo videos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FDj64m5FOcc?si=P4WDllR38eDJkrRT"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo video do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/1155924?h=52c0acc722&color=ff9933&title=0&byline=0&portrait=0"
+        width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen></iframe>
+</body>
+
+</html>
