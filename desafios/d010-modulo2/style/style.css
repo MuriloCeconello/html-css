@@ -63,7 +63,7 @@ main {
     padding: 20px;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 1px 1px 5px 2px #015532;
-    min-width: 30px;
+    min-width: 300px;
     max-width: 1000px;
     margin: auto;
 }
