@@ -20,7 +20,8 @@
             border-collapse: collapse;
             text-align: center;
             position: absolute;
-            left: 42%;
+            left: 37%;
+            width: 500px;
         }
         th, td{
             border: 2px solid #000000;
@@ -41,8 +42,8 @@
     <table>
         <thead>
             <tr>
-                <th>Unidade Federativa</th>
-                <th>População</th>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -157,7 +158,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>População Total</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num">203 062 512</td>
             </tr>
         </tfoot>
