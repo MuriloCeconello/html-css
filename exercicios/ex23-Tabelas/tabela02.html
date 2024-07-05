@@ -6,32 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
-        body{
+        body {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 1.2em;
         }
 
-        h1{
-            text-align: center;
+        h1 {
             font-family: 'Courier New', Courier, monospace;
             font-size: 50px;
         }
-        table{
-            border-collapse: collapse;
+
+        table {
             text-align: center;
-            position: absolute;
-            left: 37%;
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
         }
-        th, td{
+
+        th,
+        td {
             border: 2px solid #000000;
             padding: 10px;
         }
-        thead, tfoot{
+
+        thead,
+        tfoot {
             background-color: #575757;
             color: #ffffff;
         }
-        td.num{
+
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color: #575757;
+        }
+
+        tbody>tr:nth-child(even) {
+            /*  PODEMOS USAR ÍMPAR OU PAR
+                                   ÍMPAR = odd & PAR = even*/
+            background-color: #d3d3d3;
+        }
+
+        td.num {
             text-align: right;
         }
     </style>
