@@ -50,7 +50,9 @@ Desktop: 1680px, 1920px;
     #laptop {display: none;}
 }
 
-@media screen and (min-width: 320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 567px) and (orientation: portrait) {
+
+    /* CELULAR RETRATO */
     body {
         background-image: url(../imagens/back-phone.jpg);
     }
@@ -63,9 +65,24 @@ Desktop: 1680px, 1920px;
     #laptop {display: none;}
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 568px) and (max-width: 812px) and (orientation: landscape) {
 
-    /* TABLET */
+    /* CELULAR PAISAGEM */
+    body {
+        background-image: url(../imagens/back-phone.jpg);
+    }
+
+    #phone {display: block;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+    #laptop {display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 834px) and (orientation: portrait){
+
+    /* TABLET RETRATO */
     body {
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -78,7 +95,22 @@ Desktop: 1680px, 1920px;
     #laptop {display: none;}
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1112px) and (orientation: landscape){
+
+    /* TABLET PAISAGEM */
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone {display: none;}
+    #tablet {display: block;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+    #laptop {display: none;}
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
 
     /* LAPTOP */
     body {
@@ -93,7 +125,7 @@ Desktop: 1680px, 1920px;
     #laptop {display: block;}
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
 
     /* DESKTOP */
     body {
@@ -108,7 +140,7 @@ Desktop: 1680px, 1920px;
     #laptop {display: none;}
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1921px) {
     body {
         background-image: url(../imagens/back-tv.jpg);
     }
