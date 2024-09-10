@@ -22,7 +22,7 @@ header>h1 {
     text-align: center;
 }
 
-#burgermenu{
+#burgermenu {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
@@ -49,7 +49,7 @@ a {
     border: 1px solid #D89963;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
     background-color: #D8AB82;
 }
